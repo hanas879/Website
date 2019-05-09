@@ -1,0 +1,36 @@
+.frame {
+  background-color: #000000;
+  height: 580px;
+  width: 500px;
+  margin: 5% auto;
+}
+
+h1 {
+  color: #ffffff;
+  text-align: center;
+  padding-top: 5%;
+  font-size: 45px;
+}
+
+.container {
+  background-color: red;
+  height: 50px;
+  width: auto;
+  margin-top: 3%;
+}
+
+.picture {
+  background-color: blue;
+  height: 50px;
+  width: 200px;
+  float: left;
+  margin-left: 2%;
+}
+
+.text {
+  background-color: blue;
+  height: 50px;
+  width: 200px;
+  float: right;
+  margin-right: 2%;
+}
