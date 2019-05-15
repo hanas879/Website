@@ -1,5 +1,10 @@
+body {
+  background-image: url("pictures/background.jpg");
+}
+
 .frame {
   background-color: #000000;
+  background-image: url("pictures/backgroundCard.jpg");
   height: 580px;
   width: 500px;
   margin: 5% auto;
@@ -7,28 +12,47 @@
 
 h1 {
   color: #ffffff;
+  font-family: 'IBM Plex Sans', sans-serif;
   text-align: center;
   padding-top: 5%;
   font-size: 45px;
 }
 
 .container {
-  background-color: red;
+  background-color: ;
   height: 50px;
   width: auto;
-  margin-top: 3%;
+  margin-top: 5%;
 }
 
 .picture {
-  background-color: blue;
+  background-color: ;
   height: 50px;
   width: 200px;
   float: left;
   margin-left: 2%;
 }
 
+h3 {
+  text-align: center;
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: #ffffff;
+  float: left;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+img {
+  height: 50px;
+  width: 50px;
+}
+
 .text {
-  background-color: blue;
+  background-color: ;
   height: 50px;
   width: 200px;
   float: right;
