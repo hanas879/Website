@@ -4,11 +4,11 @@ body {
 
 .frame {
   background-color: #000000;
-  background-image: url("pictures/backgroundCard.jpg");
-  height: 580px;
+  background-image: url("pictures/greenboard.jpg");
+  height: 650px;
   width: 500px;
   margin: 5% auto;
-  border-radius: 10px;
+  border-radius: 15px;
 }
 
 h1 {
