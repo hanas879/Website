@@ -1,0 +1,32 @@
+/*basic reset*/
+* {margin: 0; padding: 0;}
+/*adding a black bg to the body to make things clearer*/
+body {background: black;}
+canvas {display: block;}
+
+div {
+	height: 150px;
+	width: 100%;
+	background-color: black;
+	text-align: center;
+	float: left;
+
+}
+
+h1 {
+	color: yellow;
+	font-family: cursive;
+	font-size: 100px;
+	float: left;
+	margin-left: 35%;
+}
+
+h2 {
+
+}
+
+img {
+	height: 100px;
+	width: 100px;
+	float: left; 
+}
