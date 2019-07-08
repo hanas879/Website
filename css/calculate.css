@@ -1,0 +1,41 @@
+.sideBar {
+  background-color: black;
+  height: 700px;
+  width: 250px;
+}
+
+.listBox {
+  background-color: grey;
+  height: 40px;
+  width: auto;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  color: white;
+  font-size: 30px;
+}
+
+.content {
+  background-color: grey;
+  height: 60px;
+  width: auto;
+  margin-top: 5%;
+}
+
+.content:hover {
+  opacity: .5;
+}
+
+p {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  position: relative;
+  float: left;
+  left: 50%;
+  transform: translate(-50%);
+}
