@@ -1,10 +1,10 @@
 body {
-  background-image: url("pictures/background.jpg");
+  background-image: url("Pictures/background.jpg");
 }
 
 .frame {
   background-color: #000000;
-  background-image: url("pictures/greenboard.jpg");
+  background-image: url("Pictures/greenboard.jpg");
   height: 650px;
   width: 500px;
   margin: 5% auto;
