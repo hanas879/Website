@@ -1,11 +1,50 @@
-.container {
-  display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
-  grid-template-rows: 10fr 25% auto;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-img {
-  grid-column-start: 2;
-  grid-column-end: 3;
-  
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 100px auto auto 100%;
+  grid-template-areas:
+  "header header header header"
+  "sidebar sidebar sidebar sidebar"
+  "content content content content"
+  "footer footer footer footer";
+}
+
+.header {
+  grid-area: header;
+  background-image: url("http://starvice.in/wp-content/uploads/2016/02/header.png");
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 3em;
+}
+
+.sidebar {
+    grid-area: sidebar;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-self: center;
+}
+
+.content {
+  grid-area: content;
+}
+
+.footer {
+  grid-area: footer;
+  background-color: black;
+}
+
+a {
+  font-size: 3em;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
 }
