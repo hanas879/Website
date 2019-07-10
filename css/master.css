@@ -1,0 +1,11 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 10fr 25% auto;
+}
+
+img {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  
+}
