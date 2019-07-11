@@ -6,6 +6,9 @@
 html, body {
   height: 100%;
   width: 100%;
+  background-image: url(../Pictures/hex.png);
+  background-size: auto;
+  background-color: lightgray;
 }
 
 @font-face {
@@ -92,4 +95,31 @@ h1 {
   grid-column-end: 3;
   grid-row-start: 2;
   grid-row-end: 3;
+}
+
+@media(min-width:993px) {
+  .w3-sidebar {
+    height: auto;
+    background-color: transparent;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+
+  .w3-card {
+    box-shadow: none;
+  }
+
+  a {
+    color: #000000;
+  }
+
+  a:hover {
+    opacity: .5;
+  }
+
+  .links {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
 }
