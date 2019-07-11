@@ -1,45 +1,34 @@
 <!DOCTYPE html>
 <html lang="no" dir="ltr">
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     <title>Calculate</title>
-    <link rel="stylesheet" href="/css/calculate.css">
+    <link rel="stylesheet" href="/css/w3.css">
+    <link rel="stylesheet" href="/css/master.css">
+    <script type="text/javascript" src="./Scripts/menu.js"></script>
   </head>
   <body>
-    <div class="sideBar">
-      <!-- <ul>
-        <li>
-          <div class="listBox">
-            Home
-          </div>
-        </li>
-        <li>
-          <div class="listBox">
-            Calculate
-          </div>
-        </li>
-      </ul> -->
-      <a href="Scripts/Calculate/decimalToAll.html">
-        <div class="content">
-          <p>Decimal to *</p>
+    <div class="container">
+      <div class="header">
+        <div class="headerContent">
+          <div class="w3-sidebar w3-bar-block w3-collapse w3-card w3-animate-left" style="width:200px;" id="mySidebar">
+            <button class="w3-bar-item w3-button w3-large w3-hide-large" onclick="w3_close()">Close &times;</button>
+            <div class="links">
+              <a href="newindex.html">Home</a>
+              <hr>
+              <a href="Scripts/Calculate/decimalToAll.html">Decimal to All</a>
+              <a href="Scripts/Calculate/binaryToDecimal.html">Binary to Decimal</a>
+              <a href="Scripts/Calculate/hexToDecimal.html">Hex to Decimal</a>
+              <a href="Scripts/Calculate/timeToDecimal.html">Time to Decimal</a>
+            </div>
         </div>
-      </a>
-      <a href="Scripts/Calculate/binaryToDecimal.html">
-        <div class="content">
-          <p>Binary to Decimal</p>
-        </div>
-      </a>
-      <a href="Scripts/Calculate/hexToDecimal.html">
-        <div class="content">
-          <p>HEX to Decimal</p>
-        </div>
-      </a>
-      <a href="Scripts/Calculate/timeToDecimal.html">
-        <div class="content">
-          <p>Time to Decimal</p>
-        </div>
-      </a>
+        <button class="w3-button w3-teal w3-xlarge w3-hide-large" onclick="w3_open()">&#9776;</button>
+        <h1>Calculate</h1>
+      </div>
     </div>
-
+    <div class="footer">
+      <p>&#xa9; Henrik Enger Milo</p>
+    </div>
   </body>
 </html>
