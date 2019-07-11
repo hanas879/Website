@@ -44,7 +44,7 @@ html, body {
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: 1fr 1fr 1fr;
-  grid-gap: 10px;
+  grid-gap: 20px;
 }
 
 a {
@@ -121,5 +121,9 @@ h1 {
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 10px;
+  }
+
+  hr {
+    display: ;
   }
 }
