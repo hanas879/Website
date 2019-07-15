@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Hex to Decimal</title>
     <link rel="stylesheet" href="../../css/w3.css">
-    <link rel="stylesheet" href="../../css/master.css">
+    <link rel="stylesheet" href="hexToDecimal.css">
     <script type="text/javascript" src="../menu.js"></script>
   </head>
   <body>
@@ -23,6 +23,18 @@
         <h1>Hex to Decimal</h1>
       </div>
     </div>
+    <div class="content">
+      <input type="text" name="hex" id="hex" placeholder="Hex number...">
+      <button type="button" name="button" class="button" onclick="calculate()">Calculate</button>
+      <p class="decimal">Decimal:</p>
+      <p id="decimal">NaN</p>
+    </div>
+    <script type="text/javascript">
+       function calculate() {
+         let num = document.getElementById("hex").value
+         document.getElementById("decimal").innerHTML = parseInt(num, 16)
+       }
+    </script>
     <div class="footer">
       <p>&#xa9; Henrik Enger Milo</p>
     </div>
