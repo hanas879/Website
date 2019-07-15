@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Binary to Decimal</title>
     <link rel="stylesheet" href="../../css/w3.css">
-    <link rel="stylesheet" href="../../css/master.css">
+    <link rel="stylesheet" href="binaryToDecimal.css">
     <script type="text/javascript" src="../menu.js"></script>
   </head>
   <body>
@@ -23,6 +23,18 @@
         <h1>Binary to Decimal</h1>
       </div>
     </div>
+    <div class="content">
+      <input type="text" name="binary" id="binary" placeholder="Binary number...">
+      <button type="button" name="button" class="button" onclick="calculate()">Calculate</button>
+      <p class="decimal">Decimal:</p>
+      <p id="decimal">NaN</p>
+    </div>
+    <script type="text/javascript">
+       function calculate() {
+         let num = document.getElementById("binary").value
+         document.getElementById("decimal").innerHTML = parseInt(num, 2)
+       }
+    </script>
     <div class="footer">
       <p>&#xa9; Henrik Enger Milo</p>
     </div>
