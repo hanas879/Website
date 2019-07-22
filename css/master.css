@@ -127,3 +127,9 @@ h1 {
     display: ;
   }
 }
+
+@media(min-height:701px) {
+  body {
+    background-image: url(../Pictures/hexLarge.png);
+  }
+}

@@ -187,3 +187,9 @@ h1 {
     grid-row-end: 4;
   }
 }
+
+@media(min-height:701px) {
+  body {
+    background-image: url(../../Pictures/hexLarge.png);
+  }
+}
