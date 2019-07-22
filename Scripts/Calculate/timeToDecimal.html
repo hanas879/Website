@@ -1,17 +1,50 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>Practice makes perfect</title>
-	<link rel="stylesheet" type="text/css" href="../../css/timeToDecimal.css">
-	<script src="../calculateTimeToDecimal.js"></script>
-</head>
-<body>
-	<p>Timer:</p><input type="number" name="hours" id="hours"><br>
-	<p>Minutter:</p><input type="number" name="minutes" id="minutes"><br>
-	<button onclick="getUserInput(document.getElementById('hours').value,document.getElementById('minutes').value)">Calculate</button>
-	<br>
-	<br>
-	<div id="output">
-	</div>
-</body>
+<html lang="no" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Time to Decimal</title>
+    <link rel="stylesheet" href="../../css/w3.css">
+    <link rel="stylesheet" href="timeToDecimal.css">
+    <script type="text/javascript" src="../menu.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="headerContent">
+          <div class="w3-sidebar w3-bar-block w3-collapse w3-card w3-animate-left" style="width:200px;" id="mySidebar">
+            <button class="w3-bar-item w3-button w3-large w3-hide-large" onclick="w3_close()">Close &times;</button>
+            <div class="links">
+              <a href="../../newindex.html">Home</a>
+              <a href="../../calculate.html">Calculate</a>
+            </div>
+        </div>
+        <button class="w3-button w3-teal w3-xlarge w3-hide-large" onclick="w3_open()">&#9776;</button>
+        <h1>Time To Decimal</h1>
+      </div>
+    </div>
+    <div class="content">
+      <input type="number" name="hour" id="hour" placeholder="Hours...">
+      <br>
+      <input type="number" name="minute" id="minute" placeholder="Minutes...">
+      <button type="button" name="button" class="button" onclick="calculate(document.getElementById('hour').value, document.getElementById('minute').value)">Calculate</button>
+      <p class="decimal">Decimal:</p>
+      <p id="decimal">NaN</p>
+
+    </div>
+    <script type="text/javascript">
+       function calculate(hours, minutes) {
+         let mDes = minutes / 60
+         console.log(hours)
+         console.log(mDes)
+         mDes = parseFloat(mDes.toFixed(2))
+
+         let sumDes = parseInt(hours) + mDes
+         document.getElementById("decimal").innerHTML = sumDes
+       }
+    </script>
+    <div class="footer">
+      <p>&#xa9; Henrik Enger Milo</p>
+    </div>
+  </body>
 </html>
