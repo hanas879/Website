@@ -179,4 +179,26 @@ h1 {
   hr {
     display: ;
   }
+
+  .content {
+    margin: 0;
+    grid-template-rows: 50px 50px 50px 50px;
+    margin-left: 20%;
+  }
+
+  #decimal {
+    height: 100%;
+    width: 50%;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+
+  .button {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+  }
 }

@@ -176,4 +176,33 @@ h1 {
   hr {
     display: ;
   }
+
+  .content {
+    margin: 0;
+    grid-template-rows: 50px 50px 50px 50px 1fr;
+    margin-left: 20%;
+  }
+
+  .decimal {
+    margin: 0;
+  }
+
+  #hour {
+    width: 50%;
+  }
+
+  #minute {
+    width: 50%;
+  }
+
+  #decimal {
+    margin: 0;
+  }
+
+  .button {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+  }
 }

@@ -44,7 +44,7 @@ html, body {
   grid-area: content;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 50px 1fr 1fr 1fr;
+  grid-template-rows: 50px 50px 50px 50px;
   grid-row-gap: 20px;
 }
 
@@ -116,10 +116,6 @@ h1 {
     align-self: center;
 }
 
-.content {
-  grid-area: content;
-}
-
 .footer {
   grid-area: footer;
   background-color: black;
@@ -166,5 +162,28 @@ h1 {
 
   hr {
     display: ;
+  }
+  .content {
+    margin: 0;
+    margin-left: 20%;
+  }
+
+  #binary {
+    width: 50%;
+  }
+
+  .decimal {
+    margin: 0;
+  }
+
+  #decimal {
+    margin: 0;
+  }
+
+  .button {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
   }
 }
