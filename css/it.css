@@ -10,6 +10,10 @@ html, body {
   background-color: #dbb251;
 }
 
+.back {
+  display: none;
+}
+
 @font-face {
   font-family: BebasNeue;
   src: url("../Fonts/BebasNeue/BebasNeue.woff");
@@ -152,6 +156,18 @@ h1 {
 
   hr {
     display: ;
+  }
+
+  .back {
+    display: contents;
+  }
+
+  .back img:hover {
+    opacity: .5;
+  }
+
+  .fun {
+    display: none;
   }
 }
 
