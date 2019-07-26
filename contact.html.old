@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="no" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/kontakt.css">
+    <title>Kontakt meg</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans" rel="stylesheet">
+  </head>
+  <body>
+    <div class="frame">
+      <h1>Finn meg her</h1>
+      <hr>
+      <br>
+      <br>
+      <div class="container">
+        <div class="picture">
+          <img src="Pictures/phone.png" />
+        </div>
+        <div class="text">
+          <h3>+47 941 33 170</h3>
+        </div>
+      </div>
+      <div class="container">
+        <div class="picture">
+          <a href="mailto:hanas879@milo.life"><img src="Pictures/mail.png" /></a>
+        </div>
+        <div class="text">
+          <h3><a href="mailto:hanas879@milo.life">hanas879@milo.life</a></h3>
+        </div>
+      </div>
+      <div class="container">
+        <div class="picture">
+          <img src="Pictures/snapcodeBitmoji.svg" />
+        </div>
+        <div class="text">
+          <h3>hanas879</h3>
+        </div>
+      </div>
+      <div class="container">
+        <div class="picture">
+          <a href="https://www.instagram.com/miloman879/"><img src="Pictures/instagram.png" /></a>
+        </div>
+        <div class="text">
+          <h3><a href="https://www.instagram.com/miloman879/">miloman879</a></h3>
+        </div>
+      </div>
+      <div class="container">
+        <div class="picture">
+          <a href="https://github.com/hanas879"><img src="Pictures/github.png" /></a>
+        </div>
+        <div class="text">
+          <h3><a href="https://github.com/hanas879">hanas879</a></h3>
+        </div>
+      </div>
+      <div class="container">
+        <div class="picture">
+          <a href="https://steamcommunity.com/profiles/76561198067969799"><img src="Pictures/steam.png" /></a>
+        </div>
+        <div class="text">
+          <h3><a href="https://steamcommunity.com/profiles/76561198067969799">Hanas879</a></h3>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

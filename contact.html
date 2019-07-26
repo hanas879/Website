@@ -2,65 +2,46 @@
 <html lang="no" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="css/kontakt.css">
-    <title>Kontakt meg</title>
-    <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact me</title>
+    <link rel="stylesheet" href="/css/w3.css">
+    <link rel="stylesheet" href="/css/kontakt.css">
+    <script type="text/javascript" src="Scripts/menu.js"></script>
   </head>
   <body>
-    <div class="frame">
-      <h1>Finn meg her</h1>
-      <hr>
-      <br>
-      <br>
-      <div class="container">
-        <div class="picture">
-          <img src="Pictures/phone.png" />
+    <div class="container">
+      <div class="header">
+        <div class="headerContent">
+          <div class="w3-sidebar w3-bar-block w3-collapse w3-card w3-animate-left" style="width:200px;" id="mySidebar">
+            <button class="w3-bar-item w3-button w3-large w3-hide-large" onclick="w3_close()">Close &times;</button>
+            <div class="links">
+              <a href="newindex.html">Home</a>
+            </div>
         </div>
-        <div class="text">
-          <h3>+47 941 33 170</h3>
-        </div>
+        <button class="w3-button w3-teal w3-xlarge w3-hide-large" onclick="w3_open()">&#9776;</button>
+        <h1>Contact Me</h1>
       </div>
-      <div class="container">
-        <div class="picture">
-          <a href="mailto:hanas879@milo.life"><img src="Pictures/mail.png" /></a>
-        </div>
-        <div class="text">
-          <h3><a href="mailto:hanas879@milo.life">hanas879@milo.life</a></h3>
-        </div>
+    </div>
+    <div class="content">
+      <div class="itembox">
+        <h3 class="phone"><img src="/Pictures/phone.png" /></h3>
+        <h3 class="mail"><img src="/Pictures/mail.png" /></h3>
+        <h3 class="snapchat"><img src="/Pictures/snapcodeBitmoji.svg" /></h3>
+        <h3 class="instagram"><img src="/Pictures/instagram.png" /></h3>
+        <h3 class="github"><img src="/Pictures/github.png" /></h3>
+        <h3 class="steam"><img src="/Pictures/steam.png" /></h3>
       </div>
-      <div class="container">
-        <div class="picture">
-          <img src="Pictures/snapcodeBitmoji.svg" />
-        </div>
-        <div class="text">
-          <h3>hanas879</h3>
-        </div>
+      <div class="contentbox">
+        <h3 class="phone1">+47 941 33 170</h3>
+        <h3 class="mail1"><a href="mailto:hanas879@milo.life">hanas879@milo.life</a></h3>
+        <h3 class="snapchat1">Hanas879</h3>
+        <h3 class="instagram1"><a href="https://www.instagram.com/miloman879/">miloman879</a></h3>
+        <h3 class="github1"><a href="https://github.com/hanas879">Hanas879</a></h3>
+        <h3 class="steam1"><a href="https://steamcommunity.com/profiles/76561198067969799">Hanas879</a></h3>
       </div>
-      <div class="container">
-        <div class="picture">
-          <a href="https://www.instagram.com/miloman879/"><img src="Pictures/instagram.png" /></a>
-        </div>
-        <div class="text">
-          <h3><a href="https://www.instagram.com/miloman879/">miloman879</a></h3>
-        </div>
-      </div>
-      <div class="container">
-        <div class="picture">
-          <a href="https://github.com/hanas879"><img src="Pictures/github.png" /></a>
-        </div>
-        <div class="text">
-          <h3><a href="https://github.com/hanas879">hanas879</a></h3>
-        </div>
-      </div>
-      <div class="container">
-        <div class="picture">
-          <a href="https://steamcommunity.com/profiles/76561198067969799"><img src="Pictures/steam.png" /></a>
-        </div>
-        <div class="text">
-          <h3><a href="https://steamcommunity.com/profiles/76561198067969799">Hanas879</a></h3>
-        </div>
-      </div>
+    </div>
+    <div class="footer">
+      <p>&#xa9; Henrik Enger Milo</p>
     </div>
   </body>
 </html>
